@@ -1,0 +1,68 @@
+.main {
+  display: flex;
+  width: auto;
+  background-color: #1c1c1d;
+  max-width: 100%;
+  max-height: 100%;
+  
+  gap: 50px; /* Add space between movie cards */
+  padding: 20px; /* Add padding to the main container */
+}
+
+.movie-card {
+  margin-top: 10px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Adjusted to evenly distribute content */
+  width: 50vw;
+ 
+  padding: 10px;
+  
+  border: 2px solid #75727281;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  text-align: center;
+  transition: transform 0.1s;
+  scroll-behavior: smooth; /* Add transition for hover effect */
+}
+
+.movie-card:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+
+.movie-card p {
+  margin: 5px 0;
+  font-weight: bold;
+  color: #333131;
+}
+
+.movie-card h2 {
+  margin: 3px 0;
+  font-size: 10px;
+  color: #1b1a1a;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 70%; /* Adjusted height */
+  object-fit:cover;
+  border-radius: 10px;
+}
+
+.movie-card button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #c8e0fa;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.movie-card button:hover {
+  background-color: aqua;
+  color: black;
+}

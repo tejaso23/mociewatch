@@ -1,0 +1,32 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.nav{
+   
+    width: 98%;
+   display: flex;
+   justify-content: space-evenly;
+   padding: 1%;
+
+   background-color: #131212;
+}
+
+.nav h2 {
+    /* Your styles here */
+    font-size: 30px;
+  
+    /* Add more styles as needed */
+  }
+  
+  /* If you want to style the links within the <h2> tags */
+  .nav h2 a {
+    text-decoration: none;
+    color:aqua; /* Change to your desired link color */
+    /* Add more link styles as needed */
+  }
+ 
+  
+  
+  
+  

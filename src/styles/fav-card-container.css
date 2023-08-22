@@ -1,0 +1,13 @@
+/* fav-card-container.css */
+.favorites-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* Add gap between cards and buttons */
+  overflow: auto;
+}
+
+.cardwithcross {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Add space between card and button */
+}
