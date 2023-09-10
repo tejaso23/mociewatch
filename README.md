@@ -3,7 +3,7 @@
 cd repository path
 
 2. then type command 
-`git clone [https://github.com/tejaso23/mociewatch.git](./)`
+`git clone https://github.com/tejaso23/mociewatch.git`
 
 3. then 
 cd mociewatch
