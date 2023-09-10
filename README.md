@@ -6,8 +6,8 @@ cd repository path
 `git clone https://github.com/tejaso23/mociewatch.git`
 
 3. then 
-cd mociewatch
-npm instsll
+cd mociewatch,
+npm install,
 ready :- npm start
 
 link not working beacause its official of ombd
