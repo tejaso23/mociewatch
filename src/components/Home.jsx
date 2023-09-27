@@ -17,7 +17,7 @@ const Home = ({ favorite, setFavorites }) => {
       try {
         if (query.trim().length > 0) {
           const ombd = await axios.get(
-            `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_ombdapikey}${query}`
+            `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_ombdapikey}${query}`
           );
           console.log(ombd.data.Search);
           setMovies(ombd.data.Search);
